@@ -75,7 +75,7 @@ class FlexiFormHandler extends DataObject
         return $fields;
     }
 
-    public function updateCMSFlexiTabs(TabSet $fields, TabSet $settings_tab, $flexi)
+    public function updateCMSFlexiTabs(TabSet $fields, Tab $settings_tab, $flexi)
     {
         $field = new LiteralField('HandlerSettings', "<h3>Handler Settings</h3>");
         $settings_tab->push($field);

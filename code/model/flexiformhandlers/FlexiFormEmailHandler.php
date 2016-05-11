@@ -27,7 +27,7 @@ class FlexiFormEmailHandler extends FlexiFormBasicHandler
         return $fields;
     }
 
-    public function updateCMSFlexiTabs(TabSet $fields, TabSet $settings_tab, $flexi)
+    public function updateCMSFlexiTabs(TabSet $fields, Tab $settings_tab, $flexi)
     {
         parent::updateCMSFlexiTabs($fields, $settings_tab, $flexi);
 
